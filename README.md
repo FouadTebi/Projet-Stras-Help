@@ -100,6 +100,6 @@ Si vous développez sous Windows, vous devez éditer votre configuration git pou
 
 ## Me contacter
 
-Pour plus de renseignements contactez-moi sur [LinkedIn](https://www.linkedin.com/in/fouadtebi/), je suis plus réctif.
+Pour plus de renseignements contactez-moi sur [LinkedIn](https://www.linkedin.com/in/fouadtebi/), je suis plus réactif.
 
 **Merci**.
