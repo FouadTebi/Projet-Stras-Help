@@ -62,7 +62,7 @@ Grâce à notre collaboration collective fructueuse, nous avons pu concrétiser 
 - MySQL
 - Git/GitHub
 
-### quelques images du projet
+### Quelques images du projet
 
 - La page d'accueil:
 
