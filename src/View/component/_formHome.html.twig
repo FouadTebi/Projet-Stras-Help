@@ -1,0 +1,49 @@
+
+    <div class="uk-card uk-card-default uk-card-body uk-width-1-2@m uk-margin-auto uk-margin-large-top" id="form-inscription">
+        <h3 class="uk-card-title uk-text-center">Connectez-vous avec votre communauté</h3>
+        <div class="uk-text-default uk-text-bold uk-margin-top uk-margin-bottom">Créez des liens avec votre communauté par le biais d'échanges non marchands.</div>
+        <form action="createUser/add" method="POST">
+            <div class="uk-grid uk-flex-column uk-flex-middle" uk-grid>
+            <div class="uk-width-1-1">
+                <label for="prenom">Prénom</label>
+                <input class="uk-input" type="text"  required name="prenom" id="prenom">
+            </div>
+            <div class="uk-width-1-1">
+                <label for="email">Email</label>
+                <input class="uk-input" type="email"  required name="email" id="email">
+            </div>
+            <div class="uk-width-1-1">
+                <label for="phone">Téléphone</label>
+                <input class="uk-input" type="number"  required name="phone" id="phone">
+            </div>
+            <div class="uk-width-1-1">
+                <label for="password">Password</label>
+                <input class="uk-input" type="password"  required name="password" id="password">
+            </div>
+            <div class="uk-width-1-1">
+                <label for="description">Description</label>
+                <input class="uk-input" type="text"  required name="description" id="description">
+            </div>
+            <div class="uk-width-1-1">
+                <label for="address">Adresse</label>
+                <input class="uk-input" type="text"  required name="address" id="address">
+            </div>
+            <div class="uk-width-1-1">
+                <label id="labeldate" for="date">Date de création</label>
+                <input class="uk-input" type="date" name="date" id="date">
+            </div>
+            <div class="uk-width-1-1">
+                <label for="type">Type</label><br>
+                <label><input class="uk-radio" type="radio" name="type" value="association" checked> Association</label><br>
+                <label><input class="uk-radio" type="radio" name="type" value="particulier" > Particulier</label>
+            </div>
+            <div class="uk-width-1-1">
+                <button class="uk-button uk-button-default uk-width-1-1 card-btn" type="submit">S'inscrire</button>
+            </div>
+            </div>
+        </form>
+</div>
+
+{% block stylesshet %}
+<link rel="stylesheet" href="assets/css/style_formHome.css">
+{% endblock %}

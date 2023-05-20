@@ -1,0 +1,170 @@
+* {
+    font-family: var(--police);
+}
+
+body {
+    height: 100vh;
+}
+
+h1 {
+    width: 80%;
+    margin: auto;
+    margin-top: 5%;
+    padding: 1%;
+    font-size: 2em;
+    font-weight: bold;
+    font-family: var(--police);
+    color: var(--white--color);
+    text-align: center;
+    border: 1px solid rgba(189, 195, 199 0.8);
+    border-radius: 10px;
+    background: var(--primary--color);
+}
+
+/* Formulaire */
+
+.sk-form {
+    width: 80%;
+    margin: auto;
+    margin-top: 5%;
+}
+.uk-select {
+    border: 1px solid rgba(189, 195, 199, 0.8);
+    border-radius: 10px;
+}
+
+.uk-button {
+    border: 1px solid rgba(189, 195, 199, 0.8);
+    border-radius: 10px;
+    width: 100%;
+    background-color: var(--primary--color);
+    color: var(--white--color);
+}
+
+.uk-button:hover {
+    background-color: #c31f50;
+    color: var(--white--color);
+}
+
+label {
+    text-decoration: underline;
+    color: black;
+}
+
+/* Card */
+
+.sk-container {
+    height: 45vh;
+}
+
+.uk-card {
+    width: 80%;
+    margin: auto;
+    border: 1px solid rgba(189, 195, 199, 0.8);
+    border-radius: 10px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.uk-card-body {
+    padding: 10%;
+    height: 50%;
+}
+
+h3,
+p,
+.uk-card-footer {
+    text-align: center;
+}
+
+.sk-img,
+.sk-text {
+    display: none;
+}
+
+.sk-note:hover {
+    color: #f6b039;
+}
+
+em {
+    color: black;
+    font-size: 0.8em;
+}
+
+/* descktop display*/
+@media (min-width: 768px) {
+    h1 {
+        width: 50%;
+        margin-bottom: 5%;
+        font-size: 2.5em;
+        color: var(--white--color);
+    }
+
+    h2 {
+        font-size: 1em;
+    }
+
+    /* Formulaire */
+    .sk-container-form {
+        width: 100%;
+        background-color: #f7f7f7;
+        border-radius: 10px;
+        display: flex;
+    }
+
+    .sk-form {
+        margin-left: 20%;
+    }
+
+    .sk-img {
+        display: block;
+        width: 50%;
+        margin-left: 10%;
+        border-radius: 40px;
+    }
+
+    .sk-text {
+        display: block;
+        width: 50%;
+        margin-left: 15%;
+        text-align: left;
+    }
+
+    .uk-button {
+        width: 50%;
+        margin-left: 25%;
+        font-size: 1.2em;
+        color: var(--white--color);
+    }
+
+    /* Card */
+    .sk-container {
+        height: auto;
+    }
+
+    .uk-card {
+        height: 40%;
+        margin-top: 2%;
+        display: flex;
+        align-items: center;
+    }
+
+    .uk-card-header {
+        border-right: 1px solid rgba(189, 195, 199, 0.8);
+        width: 25%;
+    }
+
+    .sk-header {
+        width: 40%;
+    }
+
+    .uk-card-footer {
+        width: 15%;
+    }
+
+    .sk-star {
+        display: flex;
+    }
+}
