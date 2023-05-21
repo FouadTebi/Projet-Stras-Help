@@ -1,6 +1,6 @@
 # Projet de l'association Stras'Help
 
-Stras'Help est site internet d'une association dédiée à faciliter l'échange de services et à favoriser les connexions entre différentes associations et particuliers. Notre mission etaient de promouvoir la collaboration et l'entraide au sein de la communauté en mettant en relation des organisations et des individus qui sont prêts à offrir leurs services et ceux qui en ont besoin.
+Stras'Help est un site internet d'une association dédiée à faciliter l'échange de services et à favoriser les connexions entre différentes associations et particuliers. Notre mission etaient de promouvoir la collaboration et l'entraide au sein de la communauté en mettant en relation des organisations et des individus qui sont prêts à offrir leurs services et ceux qui en ont besoin.
 
 ## Développement du Site
 
